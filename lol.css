@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: srr;
+    font-weight: normal;
+    font-style: normal;
+    src: url(ofont.ru_Irmologion\ kUcs.ttf);
+}
+
+body {
+    font-family: "srr";
+}
+.dima {
+    color: rgb(255, 60, 0);
+    text-align: center;
+    font-size: 90px;
+    padding-top: 40px;
+    margin-bottom: 30px; /* Отступ снизу */
+}
+
+.german {
+    color: rgb(197, 197, 197);
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.image{
+    border-image: url(image/Без\ названия79_20251122021357.png)
+    ;
+}
+
+.os {
+    background-image: url(image/final.png);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 70vh; 
+    min-height: 400px;
+    background-color: #464646; 
+}
+.gl {
+    background-color: #464646;
+    width: 100%;
+    height: 3000px;
+}
+.pd {
+    background-image: url(image/подвал.png);
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 70vh; 
+    min-height: 400px;
+    background-color: #464646; 
+}
+.pp {
+    color: rgb(241, 71, 4);
+    text-align: center;
+    font-size: 60px;
+    padding-top: 40px;
+}
+
